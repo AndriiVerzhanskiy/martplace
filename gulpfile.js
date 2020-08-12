@@ -5,6 +5,7 @@ let gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
+    // fileinclude = require('gulp-file-include'),
     cssmin = require('gulp-cssmin');
 
 gulp.task('sass', function () {
@@ -59,6 +60,15 @@ gulp.task('js', function () {
             stream: true
         }))
 })
+
+// gulp.task('fileinclude', function () {
+//     gulp.src(['components/**/*.*'])
+//         .pipe(fileinclude({
+//             prefix: '@@',
+//             basepath: '@file'
+//         }))
+//         .pipe(gulp.dest('app/'));
+// });
 
 gulp.task('browser-sync', function () {
     browserSync.init({
