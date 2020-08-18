@@ -1,0 +1,22 @@
+.header__top {
+    background-color: var(--color-page__grey);
+    height: 100px;
+    padding-top: 25px;
+}
+
+.header__row {
+    align-items: center;
+}
+
+.header__button {
+    width: 140px;
+    height: 36px;
+    border-radius: 18px;
+    font-size: 14px;
+}
+
+.header__search-button {
+    width: 70px;
+    height: 46px;
+    border-radius: 23px;
+}

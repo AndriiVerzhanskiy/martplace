@@ -1,2 +1,20 @@
+// STYLES-SECTION: fonts
+@import 'fonts';
+// !STYLES-SECTION
+
+// STYLES-SECTION: global styles
 @import 'vars';
 @import 'global';
+//!STYLES-SECTION
+
+// STYLES-SECTION: BEM-blocks
+@import 'bem/logo';
+@import 'bem/button';
+@import 'bem/profile';
+@import 'bem/menu';
+@import 'bem/simple-form';
+// !STYLES-SECTION
+
+
+// STYLES-SECTION: section & components
+@import 'component/header';

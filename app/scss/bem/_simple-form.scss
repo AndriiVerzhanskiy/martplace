@@ -1,0 +1,27 @@
+.simple-form {
+    font-family: 'Quiksand-Regular', sans-serif;
+    position: relative;
+    display: block;
+
+    &__input-wrapper {}
+
+    &__input {
+        font-size: 15px;
+        width: 290px;
+        height: 46px;
+        border-radius: 23px;
+        border: 1px solid #d9dfe5;
+
+        &:focus {
+            outline: 0px transparent;
+        }
+    }
+
+    &__button {
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
